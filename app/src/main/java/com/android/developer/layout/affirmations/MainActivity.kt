@@ -31,5 +31,7 @@ class MainActivity : AppCompatActivity() {
         * Essa configuração só é necessária para melhorar o desempenho.
         * */
         recyclerView.setHasFixedSize(true)
+
+        setContentView(binding.root)
     }
 }
